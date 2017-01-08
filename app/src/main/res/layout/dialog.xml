@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+
+        <ImageButton
+            android:id="@+id/calendar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/ic_today_black_24dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:text="Save"
+        android:background="#01579B"
+        android:textColor="#FFFFFF"
+        android:id="@+id/saveUniversal"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:text="Post"
+        android:background="#01579B"
+        android:textColor="#FFFFFF"
+        android:id="@+id/postUniversal"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:text="Post Comment"
+        android:background="#01579B"
+        android:textColor="#FFFFFF"
+        android:id="@+id/postCommentUniversal"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:text="Add Remark"
+        android:background="#01579B"
+        android:textColor="#FFFFFF"
+        android:id="@+id/remarkUniversal"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

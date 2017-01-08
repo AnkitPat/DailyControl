@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_background">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@mipmap/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:background="#ffffff"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/username"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:id="@+id/password"/>
+
+    <Spinner
+        android:layout_height="30dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:layout_marginTop="20dp"
+        android:id="@+id/spinner_login"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <CheckBox
+              android:layout_height="10dp"
+              android:layout_width="10dp"
+              android:background="#ffffff"
+              android:id="@+id/checkbox"
+              android:layout_gravity="center"/>
+
+        <TextView
+              android:layout_height="20dp"
+              android:layout_width="100dp"
+              android:textColor="#ffffff"
+              android:text="@string/text_remember"
+              android:layout_toRightOf="@+id/checkbox"
+              android:layout_gravity="center"
+              android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_height="30dp"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#3fcb39"
+        android:text="@string/text_submit"
+        android:textColor="#ffffff"
+        android:id="@+id/submit" />
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@mipmap/kids_logo"
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/imageView"
+        android:layout_marginTop="40dp"/>
+    </LinearLayout>
+
+</ScrollView>
